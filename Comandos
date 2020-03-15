@@ -1,0 +1,9 @@
+*** Backend ***
+npm init --yes
+npm i koa  koa-router @koa/cors koa-bodyparser fastest-validator sequelize sequelize-cli
+npm i sqlite3
+npm i -D nodemon
+npx sequelize init
+yarn sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string,password:string  ==> não pode ter espaços entre os atributos
+npm install jsonwebtoken
+para rodar o projeto => npm start
